@@ -1,0 +1,81 @@
+body{
+    font-family:cursive;
+    background: url(http://freenaturestock.s3.amazonaws.com/992.jpg)  no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    height: 30px;
+    
+}
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+.nav li{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+    
+     
+}
+.nav li:hover{
+   border-bottom: 2px solid green;
+    padding-bottom: 9px;
+    
+}
+.jumbotron{
+   background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+.bodyimage{
+    height: 100px;
+    
+}
+.col-md-4{
+    text-align: center;
+    color: white;
+    
+}
+.icons p{
+    font-size:15px;
+    
+}
+.container{
+    max-width: 1000px;
+    
+}
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn{
+background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color:aqua;
+    color: ghostwhite;
+    border: none;
+}
+.footer{
+    background-color: lightgray;
+    font-size: 15px;
+    padding: 10px 0;    
+
+}
+@media(max-width:768px){
+    .bodyimage(
+    height:70px;
+    )
+}
